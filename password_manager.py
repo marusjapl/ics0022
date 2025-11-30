@@ -64,7 +64,7 @@ KEY_LEN = 32
 #  REGEX VALIDATION
 # ============================================================
 
-SITE_PATTERN = re.compile(r"^[A-Za-z0-9 _\-.\@:/?#&()[\]%+,'\"]{1,200}$")
+SITE_PATTERN = re.compile(r"^[A-Za-z0-9 _\-.:/@?#&()[\]%+,'\"]{1,200}$")
 USERNAME_PATTERN = re.compile(r"^[A-Za-z0-9_.@-]{1,100}$")
 MENU_CHOICE_PATTERN = re.compile(r"^[0-9]+$")
 CONFIRM_PATTERN = re.compile(r"^[A-Z]{3,20}$")
