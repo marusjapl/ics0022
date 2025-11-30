@@ -35,7 +35,7 @@ pip install bcrypt cryptography
 
 ```sh
 git clone https://github.com/marusjapl/ics0022.git
-cd password_manager.py
+cd ics0022
 ```
 
 ## ▶️ Usage
