@@ -21,7 +21,7 @@ This Python project is a **single-user, secure password manager**. It allows you
 Ensure you have **Python 3.8 or newer installed. You can check with:
 
 ```sh
-python3 --version
+python --version
 ```
 
 You also need to install the bcrypt and cryptography packages if not already installed:
