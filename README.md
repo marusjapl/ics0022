@@ -34,8 +34,8 @@ pip install bcrypt cryptography
 ### Clone the Repository
 
 ```sh
-https://github.com/marusjapl/ics0022.git
-cd ics0022
+git clone https://github.com/marusjapl/ics0022.git
+cd password_manager.py
 ```
 
 ## ▶️ Usage
@@ -43,7 +43,7 @@ cd ics0022
 Run the code in your terminal:
 
 ```sh
-python3 password_manager.py
+python password_manager.py
 ```
 
 ## Initial Setup
@@ -51,7 +51,7 @@ python3 password_manager.py
 The first time you run the script, it will prompt you to create a Master Password. 
 
 ```sh
-python3 password_manager.py
+python password_manager.py
 ```
 
 ## Routine Use
@@ -59,5 +59,5 @@ python3 password_manager.py
 After setup, run the script and enter your Master Password to access the main menu:
 
 ```sh
-python3 password_manager.py
+python password_manager.py
 ```
