@@ -114,7 +114,7 @@ def log_event(event: str, user: Optional[str] = None, session: Optional[str] = N
 
 def set_owner_only_permissions(path: str):
     try:
-        os.chmod(path, 0o600)  # owner read/write only
+        os.chmod(path, 0o400)  # owner read only
     except Exception:
         pass
 
